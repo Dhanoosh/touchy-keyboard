@@ -10,30 +10,8 @@ body{
     flex-direction: column;
     align-items: center;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: black;
+    background-color: rgb(43, 38, 38);
     gap: 2rem;
-}
-.credit{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    position: absolute;
-    left:0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    animation: fadeOut 3s ease-in;
-}
-
-@keyframes fadeOut {
-    0%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-    }
-
 }
 
 h1{
@@ -63,13 +41,14 @@ p{
     scroll-behavior: smooth;
     word-wrap: break-word; 
 }
+
 .keyboard-container{
     opacity: 0;
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
     animation: fadeIn 2s;
-    animation-delay: 3s;
+    animation-delay: 1s;
     animation-fill-mode: forwards;
 }
 @keyframes fadeIn {
@@ -81,6 +60,8 @@ p{
     }
 
 }
+  
+  
 ul{
     list-style: none;
     display: flex;
@@ -116,13 +97,13 @@ li{
     width: 5.5em;
 }
 
-.first.chosen{color: #2155CD; background-color: transparent!important;}
-.second.chosen{color: #0AA1DD; background-color: transparent !important;}
-.third.chosen{color: #79DAE8; background-color: transparent !important;}
+.first.chosen{color: #15a90a; background-color: transparent!important;}
+.second.chosen{color: #7fed7f; background-color: transparent !important;}
+.third.chosen{color: #bcf2bd; background-color: transparent !important;}
 .fourth.chosen{color: #E8F9FD; background-color: transparent !important;}
-.fifth.chosen{color: #79DAE8; background-color: transparent !important;}
-.sixth.chosen{color: #0AA1DD; background-color: transparent !important;}
-.seventh.chosen{color: #2155CD; background-color: transparent !important;}
+.fifth.chosen{color: #bcf2bd; background-color: transparent !important;}
+.sixth.chosen{color: #7fed7f; background-color: transparent !important;}
+.seventh.chosen{color: #15a90a; background-color: transparent !important;}
 
 .chosen{
     animation: shaking 0.5s infinite;
@@ -136,11 +117,14 @@ li{
     100% { transform: translate(0,0); }
 }
 
-.first{background-color: #2155CD; border: 1.5px solid #2155CD;}
-.second{background-color: #0AA1DD; border: 1.5px solid #0AA1DD;}
-.third{background-color: #79DAE8; border: 1.5px solid #79DAE8;}
+
+.first{background-color: #15a90a; border: 1.5px solid #15a90a;}
+.second{background-color: #7fed7f; border: 1.5px solid #7fed7f;}
+.third{background-color: #bcf2bd; border: 1.5px solid #bcf2bd;}
 .fourth{background-color: #E8F9FD; border: 1.5px solid #E8F9FD;}
-.fifth{background-color: #79DAE8; border: 1.5px solid #79DAE8;}
-.sixth{background-color: #0AA1DD; border: 1.5px solid #0AA1DD;}
-.seventh{background-color: #2155CD; border: 1.5px solid #2155CD;}
+.fifth{background-color: #bcf2bd; border: 1.5px solid #bcf2bd;}
+.sixth{background-color: #7fed7f; border: 1.5px solid #7fed7f;}
+.seventh{background-color: #15a90a; border: 1.5px solid #15a90a;}
+
+  
 
