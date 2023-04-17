@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
 *{
     padding: 0;
     margin: 0;
@@ -125,6 +128,63 @@ li{
 .fifth{background-color: #bcf2bd; border: 1.5px solid #bcf2bd;}
 .sixth{background-color: #7fed7f; border: 1.5px solid #7fed7f;}
 .seventh{background-color: #15a90a; border: 1.5px solid #15a90a;}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-social-icons {
+    position: absolute;
+    top: 0;
+    right: 100px;
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: middle;
+    display: inline;
+    height: 100px;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-github, .fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-github:hover {
+    background-color: #3d5b99;
+}
+
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.icon-label {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 14px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+
+
 
   
 
